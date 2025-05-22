@@ -4,6 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  safelist: [
+    'bg-red-500',
+    'text-red-500',
+    // Agregar otras clases que necesite
+  ],
   theme: {
     extend: {
       fontFamily: {
@@ -13,3 +18,4 @@ export default {
   },
   plugins: [],
 }
+
